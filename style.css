@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #084baf;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  nav ol{
+    list-style: none;    
+  }
+  li{
+    display: inline-block;
+    font-size: 14pt;
+  }
+  li a{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+  }
+  hr{
+    border: solid 2px;
+    background-color: #182C61;
+  }
+  .about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .image-column img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+  
+  .text-column {
+    max-width: 600px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .product h5{
+    padding: 10%;
+  }
+.product {
+  
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%; /* Ajusta a largura para 100% do container .product */
+  height: 160px; /* Define a altura desejada para todas as imagens */
+  object-fit: cover; /* Mantém a proporção da imagem */
+  border-radius: 8px;
+}
+
+  
+  .add-to-cart {
+    background-color: #44bd32;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #4cd137;
+  }
+  
+  footer {
+    background-color: #182C61;
+    color: #fff;
+    text-align: center;
+    padding: 16px;    
+    bottom: 0;
+    width: 100%;
+  }
+  
